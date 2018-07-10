@@ -1,0 +1,23 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ff8128;
+    font-size: 30px;
+    font-weight: bold;
+}
+article{
+    text-align: center;
+}
+.fs50{
+    font-size: 50px;
+    color: #fff;
+}
+.warp ul li i:hover{
+    color: red;
+}
+.warp ul li{
+    list-style: none;
+    float: left;
+}
