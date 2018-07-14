@@ -27,51 +27,72 @@ header{
 
 /********banner**********/
 .bg-one{
+    height: 939px;
     background-image: url(../image/banner.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center bottom;
 }
 .bg-one-d{
     padding-top: 250px;
     padding-bottom:160px; 
     text-align: center;
 }
+.an-img>button{
+    width: 280px;
+    height: 60px;
+    outline: none;
+    background-color: #ffffff;
+    border: none;
+    font-size: 28px;
+    color: #24a9f1;
+    border-radius: 10px;
+}
+.an-img>button>span{
+}
 .an-img{
-    border-radius: 10px;
-    margin-left: 10px;
-    margin: 0 auto;
-    padding-top: 30px;
+    font-size: 0;
+    padding-top: 100px;
 }
-.an-img>a>img{
-    border-radius: 10px;
-    width: 200px;
+.an-img>button>i{
+    font-size: 40px;
+    vertical-align: -5px;
+    margin-right: 10px;
 }
+.an-img>button:first-child{
+    margin-right: 20px;
+}
+
+.an-img>button:active{
+    background-color: #fafafa;
+}
+
+
+
+
+
 .bg-one-d>p{
     color: #ffffff;
     font-size: 18px;
 }
 .erweima>img{
-    width: 150px;
+    width: 200px;
 }
 .fs18{
-    font-size: 18px;
+    font-size: 22px;
     color: #ffffff;
-    padding-top: 45px;
-    margin-bottom: 15px;
-
+    padding: 50px 0 15px 0;
+    letter-spacing: 3px;
 }
 
 /*********图一************/
 .bg-tow{
     background-color: #4eb55f;
-    
 }
 .bg-tow>*{
     vertical-align: middle;
 }
-.print>img{
-    width: 400px;
-}
+
 .fl::after{
     content: '';
     display: block;
@@ -80,15 +101,15 @@ header{
 .print{
     float: left;
     text-align: center;
-    padding:140px 0 140px 0; 
-    margin-right: 150px;
+}
+.print>img{
+    width: 550px;
+    line-height: 1000px;
 }
 .explain{
-    float: left;
-    text-align: center;
-    padding:330px 0 140px 0; 
+    float: right;
     text-align: right;
-    margin-right: 150px;
+    margin-right: 170px;
 }
 .dd{
     float: left;
@@ -97,14 +118,94 @@ header{
 .dd>img{
     width: 7px;
 }
-.bt{
+.txtr{
     color: #ffffff;
     font-size: 36px;
+    text-align: right;
 }
-.bt2{
+.txt2r{
     color: #ffffff;
     font-size: 18px;
+    text-align: right;
 }
-.bot{
-    height: 130px;
+.txtl{
+    color: #ffffff;
+    font-size: 36px;
+    text-align: left;
+}
+.txt2l{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+}
+/*.bot{*/
+    /*height: 130px;*/
+    /*background-color: #34683d;*/
+    /*position: fixed;*/
+    /*bottom: 0;*/
+/*}*/
+/*.bot>button{*/
+    /*width: 220px;*/
+    /*height: 50px;*/
+    /*outline: none;*/
+    /*background-color: #ffffff;*/
+    /*border: none;*/
+    /*font-size: 18px;*/
+    /*color: #24a9f1;*/
+    /*border-radius: 10px;*/
+/*}*/
+/*.bot>img{*/
+    /*width: 110px;*/
+/*}*/
+/*.bot>button>i{*/
+    /*font-size: 30px;*/
+    /*vertical-align: -5px;*/
+    /*margin-right: 20px;*/
+/*}*/
+
+
+
+
+/********************************/
+.bg-Three{
+    background-color: #eb9c36;
+}
+.leftTxt{
+    float: left;
+}
+.rgtImg{
+    float: right;
+}
+/************************************/
+.bg-Four{
+    background-color: #ed683f;
+}
+.fourImg{
+    float: left;
+}
+.fourTxt{
+    float: right;
+}
+/*****************************************/
+.bg-five{
+    background-color: #4c9bd7;
+}
+.fiveTxt{
+    float: left;
+}
+.fiveImg{
+    float: right;
+}
+/***********************************************/
+.bg-Six{
+    background-color: #356b95;
+}
+.sixImg{
+    float: left;
+}
+.sixTxt{
+    float:right;
+}
+.sixTxt i{
+    font-size: 22px;
 }
