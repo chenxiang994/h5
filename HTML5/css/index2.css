@@ -1,8 +1,47 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
 
 }
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.wrap>*{
+    vertical-align: middle;
+}
+.mr60{
+    margin-right: 60px;
+}
+.mt60{
+    margin-top: 60px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+
+/******公共样式*********/
+
+
+
+
+
+
 .wrap{
     width: 1200px;
     margin: 0 auto;
@@ -10,26 +49,35 @@
 header{
     height: 100px;
 }
-.wrap>*{
-    vertical-align: middle;
-}
+
 .logo{
     float: left;
     padding-top: 20px;
 }
-.nav{
-    float: right;
+nav{
+    height: 98px;
+    line-height: 98px;
+    font-size: 0;
 }
-.nav ul li{
-    float: left;
-    list-style: none;
-    padding: 40px 20px;
-    position: relative;
+nav a{
+    color: #333;
+    font-size: 16px;
+    padding: 0 18px;
+    display: inline-block;
+
 }
-.nav a{
-    text-decoration: none;
-    color:#000;
+nav a.on,nav a:hover{
+    color: #00a1f1;
+    border-bottom: 3px solid #00a1f1;
+
 }
+/*.nav ul li{*/
+    /*float: left;*/
+    /*list-style: none;*/
+    /*padding: 40px 20px;*/
+    /*position: relative;*/
+/*}*/
+
 .bok{
     width: 65px;
     height: 3px;
@@ -48,4 +96,44 @@ header{
 /*}*/
 .stl{
     color:#00a1f1;
+}
+.active{
+    color: #00a1f1;
+}
+
+
+/*********banner***********/
+.banner-bg{
+    height: 500px;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+
+/**********one***********/
+.wh20{
+    width: 20%;
+    text-align: center;
+}
+.bor{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #00a1f1;
+    margin: 0 auto;
+}
+.bor>i{
+    font-size: 46px;
+    color: #00a1f1;
+}
+.fc{
+    color: #666666;
+    font-size: 14px;
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;;
 }
