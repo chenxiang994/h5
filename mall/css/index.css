@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.w25{
+    width: 25%;
+    text-align: center;
+}
+
+
+
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/***********header***********/
+/*header{*/
+    /*height: 116px;*/
+/*}*/
+.heaTop{
+    height: 40px;
+    background-color: #404040;
+}
+.heaBot{
+    height: 76px;
+    border-bottom: 1px solid #a3a3a3;
+    border-top: 1px solid #a3a3a3;
+}
+.icon-shouji{
+    font-size:24px ;
+    color: #ffffff;
+}
+.tel{
+    font-size: 0;
+    line-height: 40px;
+}
+.tel>*{
+    vertical-align: middle;
+}
+.tel span{
+    font-size: 12px;
+    color: #fff;
+}
+.an a{
+    padding-left: 22px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 40px;
+}
+.an a.zc{
+    color: #3d87e2;
+}
+.an a.dl{
+    color: #38d823;
+}
+.log{
+    padding-top: 16px;
+}
+nav{
+    font-size: 0;
+}
+nav a{
+    color: #171717;
+    font-size: 18px;
+    line-height: 74px;
+    padding: 0 42px;
+    display: inline-block;
+}
+.on,nav a:hover{
+    background-color: #c7c7c7;
+}
+
+
+
+/***************banner****************/
+
+.banner{
+    height: 374px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/**************图示icon****************/
+.mar{
+    margin-right: 12.4555555%;
+    text-align: center;
+}
+.tex{
+    padding: 24px;
+}
+.bt{
+     color: #2b2b2b;
+     font-size: 18px;
+     padding: 10px 0;
+ }
+.cont{
+    font-size: 12px;
+    color: #2b2b2b;
+}
+
+
+
+/***************投资列表********************/
+.tzCont{
+    border: 1px solid #bfbfbf;
+    font-size: 0;
+    padding: 10px;
+    background-color: #def0fa;
+}
+.contTOP>*{
+    vertical-align: middle;
+}
+.contTOP{
+    border-bottom: 1px solid #bfbfbf;
+}
+.contTOP span{
+    font-size: 14px;
+    color: #2b2b2b;
+}
+.icon-zhuzhuangtu{
+    font-size: 24px;
+    color: #224e73;
+    margin-right: 10px;
+}
+.contBt ul li{
+    font-size: 18px;
+    color: #2b2b2b;
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
